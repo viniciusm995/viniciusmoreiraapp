@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imagens/fiveicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/fonts.css" type="text/css"/>
+  <link rel="stylesheet" href="./css/css.css" type="text/css" />
+  <title>Vinicius Moreira - Portfólio</title>
+</head>
+<body>
+  <header>
+    <img src="imagens/logo.png" class="logo"/>
+    <!--
+    Menu Superior  - Adicione itens a lista para aparecer no menu na parte superior da tela.
+    -->
+    <ul>
+      <li><a href="./index.html">Início</a></li>
+      <li><a class="active">Portfólio</a></li>
+      <li><a href="./sobre.html">Sobre</a></li>
+      <li><a href="./contato.html">Contato</a></li>
+    </ul>
+  </header>
+  <main >
+    <section class="inicio">
+      <div>
+        <!--
+          Conteúdo apresentado no centro da tela, do lado esquerdo.
+        -->
+        <h1 class="poppins-semibold-italic">Esse é meu portfólio</h1>
+        <h4 class="poppins-extralight-italic">Confira todos meus projetos abaixo.</h4> 
+        <h4 class="poppins-extralight-italic">*Portfolio ficticio - apenas para fins didáticos</h4> 
+      </div>
+      <div>
+        <!--
+         Imagem exibida no centro da tela do lado direito.
+         -->
+        <img src="imagens/portfolio.png" class="image-corporativa my-3"/>
+      </div>
+    </section>
+    <section class="nova-sessao">
+        <h1 class="poppins-medium-italic">Projetos</h1>
+        <main class="grid-container">
+          <!--
+              Cada Card contém uma imagem, titulo e link para cada trabalho do portfolio
+          -->
+        
+        <article class="card"> <a href="./linkinterno.html">
+          <img src="imagens/portfolio/link interno.png" alt="Imagem link interno" title="Página Pratica Link Interno" /> </a>
+           <span class="descricao">Página Prática Link Interno</span>
+          <button class="detalhes">Ver Detalhes</button>
+        </article>
+        <article class="card"> <a href="./form.html">
+          <img src="imagens/portfolio/form.png" alt="Imagem formulario" title="Pratica de Formulario" /></a>
+          <span class="descricao">Página Prática de Formulário</span>
+          <button class="detalhes">Detalhes</button>
+        </article>
+        </main>
+    </section>
+  </main>
+    <footer class="poppins-extralight-italic">
+      &copy; Vinicius Moreira
+    </footer>
+</body>
+</html>
